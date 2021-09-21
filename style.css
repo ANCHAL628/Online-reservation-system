@@ -1,0 +1,200 @@
+.header{
+    background-color: skyblue;
+    height: 300px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin:"10px";
+    color: white;
+    border-color: rgb(10, 0, 0);
+    border-width: 2px;
+}
+.button1 {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration:wavy;
+display: inline-block;
+cursor: pointer;
+font-size: 16px;
+margin: 5px 2px;
+background-image: linear-gradient(blue, white);
+}   
+.button2 {
+    background-color: rgba(180, 79, 21, 0.363);
+    color: black;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration:wavy;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 25px;
+    border-width: 2px;
+    border-color: rgb(235, 118, 8);
+    }   
+nav div a{
+text-decoration: none;
+padding: 20px;
+}
+.location1{
+    width: 70%;
+    height: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 1%;
+    border-color: transparent;
+    
+}
+.location2{
+    width: 20%;
+    height: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 5%;
+    border-color: transparent;
+}
+.boom{
+    width:inherit;
+    height:300px;
+    margin: 50px;
+    align-items: center;
+    border-style: solid;
+    display: flex;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-color: transparent;
+}
+.table{
+    font-size: 30px;
+}
+tr,td {
+    padding: 15px;
+}
+.login{
+    margin-left: 10%;
+    width: 30%;
+    height: 70%;
+    border: 3px solid rgba(128, 128, 128, 0.507);
+    
+}
+.underline {
+    text-decoration: underline;
+    -webkit-text-decoration-color: red; /* Safari */  
+    text-decoration-color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .table{
+    font-size: 20px;
+  }
+  .button3 {
+    background-color:rgba(110, 149, 165, 0.774);
+    border: none;
+    color: black;
+    padding: 15px 180px;
+    text-align: center;
+    text-decoration:wavy;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 2px;
+    }   
+    .over{
+        width: 20%;
+        height: 200px;
+        border-style: solid;
+        border-radius: 10px;
+        justify-content: center;
+        margin-left: 1%;
+        margin-right: 5%;
+    }
+    .location3{
+        width: 20%;
+        height: 200px;
+        border-style: solid;
+        border-radius: 30px;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 250px;
+        margin-right: 1%;
+        border-color: black;
+        background-color: coral;
+        background-color: #5b6467;
+background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+    }    
+    .boom1 {
+        width:inherit;
+        height:150px;
+        margin: 50px;
+        align-items: center;
+        border-style: solid;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        border-color: black;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-width: 5px;
+        background-color: rgba(172, 255, 47, 0.671);
+        box-shadow: black;
+        border-radius: 50px;
+        background-image: linear-gradient(skyblue, white);
+    }
+    .circle{
+        width: 80%;
+        height: 50px;
+        border: black;
+        border-width: 2px;
+    }
+    .meet{
+        width:inherit;
+        height:150px;
+        margin: 20px;
+        border-style: solid;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+        background-position: center;
+
+        border-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        border-width: 3px;
+        background-color: rgba(172, 255, 47, 0.671);
+        border-radius: 75px;
+    }
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+      }
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+      }
+      
+      .tab button:hover {
+        background-color: #ddd;
+      }
+      
+      .tab button.active {
+        background-color: #ccc;
+      }
+      
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+      }

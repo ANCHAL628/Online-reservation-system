@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" ,initial-scale="1.0">
+    <title>RESPONSIVE HELP AND SUPPORT PAGE</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="r-helpandsupport.css">
+   
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap ');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.contact{
+    position: relative;
+    min-height:100vh;
+    padding:50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url(bn.jpg.jpg);
+    background-size: cover;
+}
+.contact .content   
+{
+    max-width: 800px;
+    text-align: center;
+    
+}
+.contact .content h2{
+    font-size:36px;
+    font-weight:500;
+    color:#fff;
+
+}
+.contact .content p
+{
+    font-weight: 300;
+    color:#fff; 
+
+}
+.container
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo
+{
+    width: 50%;
+    display: flex ;
+    flex-direction:  column ;
+}
+.container .contactinfo .box
+{
+    position:relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactinfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactinfo .box .text h3
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactForm
+{
+    width: 40%;
+    padding:  40px;
+    background:#fff
+    
+}
+.contactForm h2
+{
+    font-size: 30px;
+    color: #333 ;
+    font-weight:500;
+    
+}
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%; 
+    margin-top: 10px ;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+
+{
+    width:100%;
+    padding: 5px 0;
+     font-size: 16px; 
+     margin: 10px 0;
+     border: none;
+     border-bottom: 2px solid #333;
+     outline: none;
+     resize:none;
+}
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events:none;
+    transition: 0.5s;
+    color:#666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width : 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .contactinfo
+    {
+        margin-bottom: 40px;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>CONTACT US</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta pariatur facilis vero nemo repellat
+                commodi debitis similique iure natus voluptates quos beatae consequatur, dolorem, quidem nobis dolores,
+                iusto unde est!</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><img src="https://img.pngio.com/address-logo-png-105-images-in-collection-page-1-address-logo-png-512_512.png" style="width: 40px; border-radius: 10px;"></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>2505 B HOLAMBI KALAN,<br>NARELA,ALIPUR<br>DELHI-110082</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><img src="https://www.seekpng.com/png/detail/97-972664_image-transparent-background-white-phone-icon.png" style="width: 50px; border-radius: 10px;"></div>
+                    <div class="text">
+                        <h3>PHONE</h3>
+                        <p>63778-20772</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><img src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png" style="width: 40px;"></div>
+                    <div class="text">
+                        <h3>EMAIL</h3>
+                        <p>aptich34@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>SEND MESSAGE</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>FULL NAME</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>EMAIL</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message.......</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="SEND">
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>

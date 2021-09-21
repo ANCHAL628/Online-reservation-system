@@ -1,0 +1,85 @@
+
+<html>
+    <head><title> SIGNUP </title>
+        <style>
+            body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: url(opj.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+.SIGN-UP-FORM{
+    width: 300px;
+    box-shadow: 0  0  5px  0 rgba(0,0,0,0);
+    background: floralwhite;
+    padding: 50px;
+    margin: 8% auto 0;
+    text-align:center;
+    
+}
+.SIGN-UP-FORM h1{
+    color:lightcoral;
+    margin-bottom: 30px;
+
+}
+.input-box{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100% ;
+    border: 1px solid rgb(153, 153, 153) ;
+    outline: none;
+}
+button{
+    color:#fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0 ;
+    border:  none;
+    outline: none;
+    cursor: pointer;
+}
+.signbtn{
+    background-color:cornflowerblue;
+
+
+}
+.google-btn{
+    background-color:rgb(108, 138, 39);
+}
+a{
+    text-decoration:none ;
+
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+        </style>
+    </head>
+    <link rel="stylesheet" href="styel.css">
+    <body>
+        <div class="SIGN-UP-FORM">
+            <h1>SIGN UP NOW</h1>
+            <form action="signup.php" method="POST">
+                <input type="NAME" name="name" class="input-box" placeholder="enter your name" required>
+                <input type="EMAIL" name="email" class="input-box" placeholder="enter your email" required>
+    
+                <input type="password" name="password" class="input-box" placeholder="enter your password" required>
+                
+                <p><span><input type = "checkbox"></span>I AGREE TO TERMS OF SERVICES</p>
+               <button type="button" class="signbtn" value="submit"><a href="aftersignup.html" >SIGN UP </a></button>
+                <hr>
+                <p class="or">OR</p>
+                <button type="button" class="google-btn">Login with Google</button>
+                <p>Do you have an account?<a href="#">Sign in</a></p>
+            </form>
+          </div>
+        </body>
+    </body>
+</html>

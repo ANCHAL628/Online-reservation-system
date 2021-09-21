@@ -1,0 +1,513 @@
+<html>
+
+<head>
+    <title>Aptich</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://e7.pngegg.com/pngimages/153/553/png-clipart-soldier-logo-symbol-silhouette-cool-symbols-logo-fictional-character.png"
+    type="image/x-icon">
+    <!--.......................style...............................-->
+    <style>
+        .bus {
+            width: 100%;
+            height: 800px;
+            background-repeat: no-repeat;
+
+            margin: 10px;
+            background-image: url('bus2.jpg');
+            background-size: 100% 100%;
+        }
+
+        @keyframes example {
+            0% {
+                background-color: skyblue;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: r rgba(135, 207, 235, 0.767);
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: rgba(135, 207, 235, 0.589);
+            }
+
+            75% {
+                background-color: rgba(135, 207, 235, 0.377);
+            }
+
+            100% {
+                background-color: rgba(135, 207, 235, 0.096);
+            }
+        }
+        body {
+            background: #eaafc8;
+            background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+            background: linear-gradient(to right, #eaafc8, #654ea3);
+            min-height: 100vh;}
+            header {
+            position: relative;
+            background-color: black;
+            height: 75vh;
+            min-height: 25rem;
+            width: 100%;
+            overflow: hidden;
+        }
+        header video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: 0;
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        header .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.5;
+            z-index: 1;
+        }
+
+        @media (pointer: coarse) and (hover: none) {
+            header {
+                background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+            }
+
+            header video {
+                display: none;
+            }
+        }
+
+        .display-3 {
+            text-align: center;
+            font-size: 90px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 100;
+            margin-top: 250px;
+            color: white;
+        }
+
+        .lead {
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="overlay"></div>
+        
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3">APTICH TRANSPORT</h1>
+                    <p class="lead">You are one ride away from a good mood.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav style="height: 50px; background-color: darkgray;">
+        <div style="color: rgb(70, 70, 180); position: sticky;">
+
+            <a href="#">Home</a> | <a href="bustiming.html">Bus Timing</a>|<a href="payment.html">Payment</a>|<a href="https://www.google.com/search?q=bus%20services&tbm=lcl&sxsrf=ALeKk02AHPIKbnigZhQmnhtFtoquJw9uuw%3A1625646549783&ei=1WXlYP-uL4Wv9QPY_7DwCA&oq=bus+services&gs_l=psy-ab.3..0i273k1j0i263i20k1j0i273k1j0i263i20k1j0i457i67k1j0i273k1j0l4.167189.172606.0.173586.28.17.0.4.4.0.392.2217.0j3j4j2.10.0....0...1c.1.64.psy-ab..16.12.2379.10..35i39k1j35i362i39k1j0i67k1j0i457i273k1j0i10k1j0i433i10k1j0i433i131k1j0i402k1j0i433k1.474.NbQJ6Mjx-_U&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:;mv:[[28.881339,77.2788992],[28.6260801,77.0381079]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2" target="blank"> Bus</a>|<a
+                href="https://www.irctc.co.in/nget/train-search" target="blank">Train</a> |<a
+                href="signup.html">Login/SignUp</a>|
+            <a href="help&support.html">Help</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <em dir="rtl">
+                <a href="#" class="button1">Book Now</a> </em>
+        </div>
+    </nav>
+    <!--.............................................................................................-->
+    <div class="boom">
+        <form action="book now.html" method="GET">
+            <div class="location1">
+                <table class="table">
+                    <tr>
+                        <td>
+                            From:
+                        </td>
+                        <td>
+                            <input type="text" name="currlocation" id="add" placeholder="Enter your current location"
+                                style="border-width: 2px; background-color: rgba(128, 128, 128, 0.219); width: 100%;padding: 12px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            To:
+                        </td>
+                        <td>
+                            <input type="text" name="finallocation" id="add" placeholder="Search for a location"
+                                style="border-width: 2px; background-color: rgba(128, 128, 128, 0.219); width: 100%;padding: 12px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            Mode of Transport:
+                        </td>
+
+                        <td>
+                            <select style="width: 600px; height: 30px; border-color: purple; border-width: 2px;">
+                                <option style="padding: 12px;">-- Select Mode --</option>
+                                <option>BUS</option>
+                                <option>TRAIN</option>
+                                <option>CAB</option>
+                                <option>AUTO</option>
+                                <option>FLIGHT</option>
+                                <option>LUX</option>
+                                <option>BIKE</option>
+                            </select>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+        </form>
+        <div class="location2">
+            <iframe style="height: 100%; width: 100%;"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d111948.73141669709!2d77.1981312!3d28.737535999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1624858673574!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </div>
+
+    <a href="book now.html" class="button2" style="margin-left: 30%;"><i>Search Cabs</i></a> </em>
+    <br><br><br><br>
+
+
+    <!--.........................................................................................-->
+    <br><br>
+    <div class="bus">
+        <br><br><br><br><br><br>
+        <div class="login">
+            <br>
+            <p><i><u style="margin-top: 10px" ;>
+                        <pre
+                            style="font-size: 50px; color: rgba(53, 51, 51, 0.911); margin-left: 50px; font-family: Arial, Helvetica, sans-serif;">APTICH             </pre>
+                    </u></i></p>
+            <center class="underline"> LOG IN</center>
+            <center>
+                <table class="table">
+                    <tr style="margin-left: 100px;">
+                        <td>
+                            Phone no. :
+                        </td>
+                        <td>
+                            <input type="number" placeholder="+91" style="padding: 5px;" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email :
+                        </td>
+                        <td>
+                            <input type="email" placeholder="email" style="padding: 5px;" required>
+                        </td>
+                    </tr>
+                </table>
+
+                <p style="font-size: 25px; color: rgb(128, 128, 128); font-family: Arial, Helvetica, sans-serif;"> A
+                    4-digit OTP will be send on SMS</p>
+                <br><br>
+                <a href="pincode.html" class="button3">Next</a> </em>
+            </center>
+        </div>
+
+    </div>
+
+    <fieldset class="boom1">
+        <legend>Why ride with Aptich?</legend>
+
+        <div class="location3">
+            <div class="circle">
+                <pre
+                    style="border: 2px;margin-top: 40px; border-color: black; font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-left: 30px;"><u>AC Cabs                   </u>&#9673;</pre>
+                <p style="font-size: 15px; margin-left: 20px;">Enhanced Ride Comfort
+                    Brand New Automatic Electric Car Fleet With Professionally Trained Cab Managers.</p>
+            </div>
+        </div>
+
+        <div class="location3">
+            <pre
+                style="border: 2px;margin-top: 40px; border-color: black; font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-left: 30px;"><u>Safe Rides                 </u>&#9673;</pre>
+            <p style="font-size: 15px; margin-left: 20px;">Safety Being Paramount
+                GPS Enabled & Tracked, Bio-metric Verification And Monthly Background Check For Cab Managers.</p>
+        </div>
+        <div class="location3">
+            <pre
+                style="border: 2px;margin-top: 40px; border-color: black; font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-left: 30px;"><u>Cashless Rides        </u>&#9673;</pre>
+            <p style="font-size: 15px; margin-left: 20px;">Tracks and maintains the digital record of every transaction.
+                No fear of losing cash or getting fake currency, pay directly from your banks.</p>
+        </div>
+    </fieldset>
+    <!--..................................................................................................-->
+    <br><br><br><br><br><br>
+    <div style=" width:70%; margin-left: 10%;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cupiditate officiis maiores reiciendis
+            delectus saepe voluptatibus minima sequi explicabo ex, laudantium molestias rem perferendis non facilis
+            itaque debitis vel odit inventore doloremque, quis distinctio. Dolor, error labore? Odio dignissimos
+            laboriosam eveniet recusandae et nesciunt, obcaecati excepturi perspiciatis quaerat delectus voluptatem
+            porro eligendi exercitationem ad ullam accusamus earum odit hic corrupti cum pariatur temporibus magnam
+            voluptas! Voluptas sapiente, id accusamus libero enim necessitatibus architecto, dolorum aliquid aspernatur
+            similique nobis adipisci laboriosam placeat, eum aut doloribus culpa distinctio officiis animi deleniti
+            harum magni. Pariatur corrupti enim nobis, doloremque voluptatem molestias quis voluptate? Labpedit adipisci
+            minima vero laudantium. Sit quia maxime natus fugit ut. Corporis perspiciatis veritatis ad sapiente libero
+            praesentium aliquid amet illum et in, velit quo vitae, asperiores totam iste, quos maiores. Quisquam,
+            incidunt rerum aliquam perspiciatis rem quidem cupiditate eius explicabo laborum ipsam veniam neque. Ipsa
+            laboriosam officiis at maxime veritatis, nostrum fugiat, possimus optio nobis quis eaque voluptate porro
+            consequatur hic maiores quos facere velit temporibus reiciendis. Vel libero odit sunt quod expedita!</p>
+    </div>
+    <br><br>
+    <div style=" width:95%; margin-left: 5%; display: flex; ">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTswgxyHMg66U48aDuzDh1PosjfU7r10nYnPg&usqp=CAU"
+            style="width: 30%; animation-name: example;
+  animation-duration: 10s; border: solid;  border-radius: 50px; border-color: transparent;border-width: 20px;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFycfAvvoOXQq5xUcO7IoJ1lv-FS8ECxE-gA&usqp=CAU"
+            style="width: 30%; border: solid;  border-radius: 50px; border-color: transparent;border-width: 20px; animation-name: example;
+  animation-duration: 10s;">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA-rbTzQcLEQO4idCFRQuB22j9a8fUYKSKuPpX00F5H-WrpFpWY2V-rW9MrmO1th_cKKg&usqp=CAU"
+            style="width: 30%; border: solid;  border-radius: 50px; border-color: transparent;border-width: 20px; animation-name: example;
+  animation-duration: 10s;">
+
+    </div>
+
+
+    <br>
+    <div class="meet">
+        <h1 style="margin-left:100px">Meet our Awesome Fleet</h1>
+        <h1 style="margin-left:100px; color: rgba(255, 0, 0, 0.575);">The widest variety of cars to choose from</h1>
+
+    </div>
+    <!--.............................................................................................-->
+    <br>
+    <hr style="border-width: 5px;"><br><br>
+    <div style="display: flex; width: inherit; height: 100px; border: solid white; border-radius: 20px;">
+
+        <div>
+            <img src="https://as1.ftcdn.net/jpg/02/23/49/78/500_F_223497872_o8vITJwnSDASG98YWvAYKLvGLfD8dI9I.jpg"
+                style="height: 80%; margin-left: 50px; border: solid white; border-radius: 50%;" alt="">
+        </div>
+        <div style="width: 200px;">24/7 Customer Support
+            A dedicated 24x7 customer
+            support team always at your
+            service to help solve any problem.</div>
+
+        <div>
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/84/47/graph-icon-on-black-background-flat-style-line-vector-23698447.jpg"
+                style="height: 80%; margin-left: 250px; border: solid white; border-radius: 50%;" alt="">
+        </div>
+        <div style="width: 200px; margin-left: 20px;">Your Safety First
+            Keep your loved ones informed
+            about your travel routes or call
+            emergency services when in need.</div>
+
+        <div>
+            <img src="https://thumbs.dreamstime.com/b/black-solid-icon-employee-applicant-man-logo-symbol-146530494.jpg"
+                style="height: 80%; margin-left: 200px; border: solid white; border-radius: 50%;" alt="">
+        </div>
+        <div style="width: 200px;">Top Rated Driver-Partners
+            All our driver-partners are
+            background verified and trained to
+            deliver only the best experience</div>
+    </div>
+    <br>
+    <hr style="border-width: 5px;"><br><br>
+<footer>
+    <div style="width: inherit; background-color: rgba(49, 55, 68, 0.507);">
+        <br>
+        <h2 style="font-family: 'Arial Narrow Bold', sans-serif; padding-left: 50px; color: rgba(49, 55, 68, 0.781);">
+            Top Visited Cities </h2>
+
+        <hr style="color:rgba(49, 55, 68, 0.781); width: 95%; margin-left: 2%; ">
+
+        <br>
+
+
+        <div class="tab"
+            style="margin-left: 50px; background-color: rgba(49, 55, 68, 0.226) ; margin-right: 50px; border-color: transparent;">
+            <button class="tablinks" onclick="openCity(event,'Delhi')">Delhi</button>
+            <button class="tablinks" onclick="openCity(event, 'Chandigarh')">Chandigarh</button>
+            <button class="tablinks" onclick="openCity(event, 'Patna')">Patna</button>
+            <button class="tablinks" onclick="openCity(event, 'Mumbai')">Mumbai</button>
+            <button class="tablinks" onclick="openCity(event, 'Bangalore')">Bangalore</button>
+            <button class="tablinks" onclick="openCity(event, 'Kota')">Kota</button>
+        </div>
+
+        <div id="Delhi" class="tabcontent">
+            <h3>Delhi</h3>
+            <p>Delhi
+                Being a metropolitian city Delhi is one of the bestest place in india
+                So here are some of the most visited place in Delhi where we offer
+                some of the discount with <grt class="br"></grt>.perks
+                Akshardham, New Delhi
+                Red Fort Chandni Chowk, New Delhi
+                India Gate Central Secretariat, New Delhi
+                Hauz Khas Hauz Khas, New Delhi</p>
+        </div>
+
+        <div id="Chandigarh" class="tabcontent">
+            <h3>Chandigarh</h3>
+            <p>They consume one-third of the natural resources in their production.<br>
+                Serves as a low-cost mode of transport for low- and middle-class population of India.<br>
+                As they are less prone to major accidents, they cause minimal damage to the pavements as compared to
+                heavy vehicles and cars.
+            </p>
+        </div>
+
+        <div id="Patna" class="tabcontent">
+            <h3>Patna</h3>
+            <p>Patna <br>
+                One of the mostly visited city from our tourist also known as the
+                hub of Ias officers so on the behalf of most visited places we recommend you
+
+
+                the following destination not only give you peace along with that you will get the
+                knowledge <br>
+                1.Golghar <br>
+                2.Jalan Museum <br>
+                3.Nalanda university <br>
+                4.Mahavir Mandir <br>
+            </p>
+        </div>
+
+        <div id="Mumbai" class="tabcontent">
+            <h3>Mumbai</h3>
+            <p>Mumbai
+                also Known as the capitals of dreams ,capitals of film industry
+                So what are you waiting for choose one of the bestest place to visit as
+                we are going to recommend you below . <br>
+                1.Gateway of India <br>
+                2.Sanjay Gandhi National Park <br>
+                3.Red Carpet Wax Museum <br>
+                4.Haji Ali Dargah <br>
+            </p>
+        </div>
+        <div id="Bangalore" class="tabcontent">
+            <h3>Bangalore</h3>
+            <p>E-rickshaws contribute to zero contamination. <br>
+                A better and affordable maintenance. <br>
+                A low running expense. <br>
+                Smoother and prominent turning sweep.<br>
+                Earning high wages through less consumption.
+            </p>
+        </div>
+        <div id="Kota" class="tabcontent">
+            <h3>Kota</h3>
+            <p>Kota
+                formerly known as Kotah, is the 25th largest district
+                in the northern Indian state of Rajasthan.
+                and has been identified as a counter-magnet city for the National Capital
+                Region to attract migrants and develop as an alternative
+                centre of growth to Delhi.We are hereby providing you the most visited place <br>
+                1.Abheda Mahal <br>
+                2.Kota Barrage <br>
+                3.Kota Garh <br>
+            </p>
+        </div>
+
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
+        <br>
+        <hr style="border-width: 1px; width: 95%;"><br>
+
+        <div
+            style="display: flex; width: 90%; margin-left: 3%; height: 60px; border-color: solid whitesmoke; border-width: 2px;">
+            <br>
+            <br>
+            <em style="font-size: 25px; color: rgba(49, 55, 68, 0.822);font-family: 'Arial Narrow Bold', sans-serif;">Social
+                Links</em>
+            <img src="http://assets.stickpng.com/images/5ecec78673e4440004f09e77.png" alt=""
+                style=" width: 30px; height: 30px; margin-left: 150px; opacity: 70%;">
+
+            <img src="https://i.pinimg.com/originals/ca/3b/f0/ca3bf05cfab74677e5b73b130bd30991.png"
+                alt=""
+                style=" width: 30px; height: 30px; background-color: transparent; margin-left: 80px; opacity: 70%; border-radius: 50%;">
+
+            <img src="https://www.pinclipart.com/picdir/big/343-3439665_twitter-logo-black-png-twitter-clipart.png"
+                alt="" style=" width: 30px; height: 30px; margin-left: 80px; opacity: 70%;">
+
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEUAAAD////u7u5XV1eenp7CwsJhYWF+fn7S0tJQUFDHx8fr6+sbGxvc3NxoaGiNjY1LS0uvr6+1tbU0NDQICAi7u7uEhIQgICBubm729vaVlZWnp6dnZ2clJSXj4+N2dnY8PDwtLS3Ozs5BQUEUFBQ64PE7AAAEyklEQVR4nO2d2XriMAxGY7aQ0AxLC4XAsLXv/4zDVkgpsVQijZfvP1dzQYjONMSOLSmJudGapNlLEjovWTppVayS67/yzHVsgoy6PwzXW9dBCbMtvht2XAekQFk1nLuORoX2zfCP61iUGH0ZDl1HosbqbNh3HYci45Nh+EOghdbBcOw6CFXmB8O/roPQZZAUrkNQpkxiHOur7JJYx8Ibr64DUOfNdQAAAAAAAAAAAMKjXU72/f5+Mhy5jkSFeV7ZlVtMo5NMF+aOIqYNx+R1fe93ZOo6LDnSR37HazWWdaxOjeCBOK5Ui6AxMdxwNjbBGLaudnZBs3YdYGMKwtCUriNsyB9K0JjAl80fDoTfCXuPdUQLGuM6yEaMOYap6yibMOAY5q6jbAJH0CxcR9kA1s8w6FF/zjNsu47zeeoeKu7YuI7zeZiGM9dxPg/zKg14uGDeaXqu42wAzzDkR33WiB/0tI01aws6QzXjGIadZMy5TF3H2AzGiBj6smmLNAw9B5f8JS5dR9iYpV1w4Do+AfpWw3fX4UlgW436cB2cDPV/xa3r0KSo+S0WgS+VVskejfxhz2V+kN45LiKsY8jGV8nWNNoqhtF8NpvHsS0KAAAAAABAPe+r4XKa9w/su9NlOY9kDeHCqOz/yNM9PMfkZRxT/Y/xA7srueI286RrJ394HW1y+0H3O44pnXs13SoZ2v5nTzxMU7DmpJr7ffEZeZITfZ1kVnJV/ynD6r54j944+CLXWPpSN8yJj9YeGIhhxrtAb3QDMxz+0u/AQPpKVTWc/F7QmIXwVommYZf4VJ3iZyiG0+cED9OcQAypz1gQzf5QM2TkyNcjWSCgZfjZRFA0DUvL0L6zTCLYwUvHcLNqJiiZ06pjWPIS5izIJZfrGAoglrbrraHYoOitoVlFbyhVyOKvoVROpMeGQvcajw2FZqceGwpdpj4bytxNfTaUSW312VBm+v2/DFvFcZm8/7v5ajCGRaeymj3q8C1FFsH1Dac/nmZ7jAryEyIjorZhsXt0fMk7WKRQXtmw7nbYZh0tMubrGtYn4fY4h4s8Qaka2gY01lf4bmgfzzi3G4kqck1Dez0R56coscOvaEjdCRl/RIn3xygaUqdm1M1JlAvoGdJVffR3SBQM6BnSnRjodXGJIV/PkD43PbOR2PNWM2QER1chS6y3qRlyZs3kl0hM29QMOTl5ZKKGxDOwmiHn5GQrNYlucVqGrOpacqdfokZXy3DPOTlRg+y34YRzcnK48NmQtRJIpkxJPCBqGbJmlOTM1GdDVpIh2ePIZ0NWpgG5lOGzIavMNmhDVm8p8jHfZ0NWFzsYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQyZoZIlWR4ZFi07i4dF/9tVz86K1e44WxBnF2zyCQAAAAAAAAAAhE1Eb7ivQfBtJp4S7Vvgr0i05fOb2BerPhKih2jwLBOZdsr+skhkGtV6S2kS4XeYeca7ORqK9HH1lPXZkNeyKUSOrzg998+U6DfsIacXSF46hEY57p8bZ371QF1vXccjzexiduvymsfxeu8L6fUdGdU+tq1JmoU/OL7teuW+YvUPAwBQXaRKC6QAAAAASUVORK5CYII="
+                alt="" style=" width: 30px; height: 30px; margin-left: 80px; opacity: 70%;">
+
+            <img src="https://w7.pngwing.com/pngs/271/390/png-transparent-youtube-play-button-computer-icons-black-and-white-youtube-angle-rectangle-triangle-thumbnail.png"
+                alt="" style=" width: 40px; height: 30px; border-radius: 10px; margin-left: 80px; opacity: 70%;">
+
+            <em
+                style="font-size: 25px; padding-left: 50px; padding-right: 50px; background: white; padding-top: 14px; margin-left: 400px; color: blue;">
+                India </em>
+
+        </div>
+        <hr style="color:rgba(49, 55, 68, 0.781); width: 95%; margin-left: 2%; ">
+
+
+        <br>
+        <!--........................................................................-->
+        <div
+            style="display: flex; width: 90%; margin-left: 3%; height: 60px; border-color: solid whitesmoke; border-width: 2px;">
+            <br>
+            <br>
+            <em style="font-size: 25px; color: rgba(49, 55, 68, 0.822);font-family: 'Arial Narrow Bold', sans-serif;">
+                Discover APTICH </em>
+
+                <em style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: black; margin-left: 90px; padding-top: 3px;">About Aptich Careers</em>
+
+                <em style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: black; margin-left: 90px; padding-top: 3px;">Offers</em>
+
+                <em style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: black; margin-left: 90px; padding-top: 3px;">Contact Us</em>
+
+                <em style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: black; margin-left: 90px; padding-top: 3px;">Media Center</em>
+
+                <em style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: black; margin-left: 90px; padding-top: 3px;">Book a Ride</em>
+        </div>
+        <hr style="color:rgba(49, 55, 68, 0.781); width: 95%; margin-left: 2%; ">
+<p style="font-size: 30px; font-family: Arial, Helvetica, sans-serif; margin-left: 100px;">APTICH</p>
+
+<p style="direction: rtl; margin-right: 200px;">Notices Terms & Conditions Privacy Policy.</p>
+<p style="direction: rtl; margin-right: 130px;">Copyright © 2018 ANI Technologies Pvt. Ltd. All rights reserved.</p>
+<br><hr>
+    </div>
+</footer>
+</body>
+
+</html>
