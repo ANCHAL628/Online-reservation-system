@@ -1,9 +1,9 @@
 # Online-reservation-system
 🚧 Want to reserve the tickets 🤔 just by sitting at home 🕐 So here ↙️ is our website to help you to do the same 🛑
 
-**LETS GETS STARTED**
+##LETS GETS STARTED**
 
-**You can do following things on our  Website **📢
+##You can do following things on our  Website 📢
 *Train Ticket booking 📏
 *Bus Ticket booking 🚌
 *Aeroplane ticket booking 🚁
@@ -12,12 +12,13 @@
 __WHAT IS IT BUILT USING__ ❓
 
 Deciding on the Tech Stack was one of the challenging portions of this building this projects, as there are many technologies to go with! 🔯
-* **FRONT-END**
+##FRONT-END
 *HTML
 *CSS
 *JAVASCRIPT
 
-* **BACK-END**
+
+##BACK-END
 *PHP
 *DBMS
 *MYSQL
